@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <trees>
+     <tree path="/api" title="api 层"/>
+     <tree path="/config" title="配置层"/>
+     <tree path="/core" title="核心组件(zap, viper, server)的初始化"/>
+     <tree path="/docs" title="swagger文档目录"/>
+     <tree path="/global" title="全局对象"/>
+     <tree path="/initialize" title="router,redis,gorm,validator, timer的初始化"/>
+     <tree path="/middleware" title="用于存放 gin 中间件代码"/>
+     <tree path="/model" title="模型对应数据表"/>
+     <tree path="/packfile" title="静态文件打包"/>
+     <tree path="/resource" title="负责存放静态文件"/>
+     <tree path="/router" title="路由层"/>
+    <tree path="/service" title="存放业务逻辑问题"/>
+    <tree path="/source" title="存放初始化数据的函数"/>
+    <tree path="/utils" title="工具函数封装"/>
+</trees>

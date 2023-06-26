@@ -10,6 +10,9 @@ import (
 	"github.com/flipped-aurora/gin-vue-admin/server/utils"
 )
 
+/*
+90天清理操作记录表
+*/
 func Timer() {
 	if global.GVA_CONFIG.Timer.Start {
 		for i := range global.GVA_CONFIG.Timer.Detail {

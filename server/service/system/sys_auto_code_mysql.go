@@ -58,6 +58,7 @@ func (s *autoCodeMysql) GetColumn(businessDB string, tableName string, dbName st
 	FROM INFORMATION_SCHEMA.COLUMNS c
 	WHERE table_name = ?
 	  AND table_schema = ?
+	ORDER BY ORDINAL_POSITION
 	`
 	if businessDB == "" {
 		err = global.GVA_DB.Raw(sql, tableName, dbName).Scan(&entities).Error
